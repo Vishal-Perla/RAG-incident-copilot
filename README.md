@@ -43,7 +43,7 @@ AI-powered assistant that helps turn raw security alerts and logs into actionabl
 ---
 
 ## 📍 Roadmap
--Swap SQLite → PostgreSQL for persistence.
--Deploy backend (Render) + frontend (Vercel).
--Secure /metrics with auth.
--Add charts for latency trends.
+- Swap SQLite → PostgreSQL for persistence.
+- Deploy backend (Render) + frontend (Vercel).
+- Secure /metrics with auth.
+- Add charts for latency trends.
