@@ -51,4 +51,4 @@ AI-powered assistant that helps turn raw security alerts and logs into actionabl
 ---
 
 ## Built by **Vishal Perla**  
-📧 Questions? Email me at: [your.email@example.com](mailto:your.email@example.com)
+📧 Questions? Email me at: [vishal260805@gmail.com](mailto:vishal260805@gmail.com)
