@@ -27,18 +27,18 @@ AI-powered assistant that helps turn raw security alerts and logs into actionabl
 
 ## ⚡ Quickstart
 # Backend
-cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload --port 8000
+-cd backend
+-pip install -r requirements.txt
+-uvicorn main:app --reload --port 8000
 
 # Frontend
-cd frontend
-npm install
-npm run dev
+-cd frontend
+-npm install
+-npm run dev
 
 #Add .env files with your keys (not committed to GitHub):
-OPENAI_API_KEY=sk-...
-PINECONE_API_KEY=pcsk-...
+-OPENAI_API_KEY=sk-...
+-PINECONE_API_KEY=pcsk-...
 
 ---
 
