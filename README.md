@@ -42,7 +42,7 @@ PINECONE_API_KEY=pcsk-...
 
 ---
 
-##📍 Roadmap
+## 📍 Roadmap
 -Swap SQLite → PostgreSQL for persistence
 -Deploy backend (Render) + frontend (Vercel)
 -Secure /metrics with auth
