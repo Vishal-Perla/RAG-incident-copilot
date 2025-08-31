@@ -43,7 +43,7 @@ PINECONE_API_KEY=pcsk-...
 ---
 
 ## 📍 Roadmap
--Swap SQLite → PostgreSQL for persistence
--Deploy backend (Render) + frontend (Vercel)
--Secure /metrics with auth
--Add charts for latency trends
+-Swap SQLite → PostgreSQL for persistence.
+-Deploy backend (Render) + frontend (Vercel).
+-Secure /metrics with auth.
+-Add charts for latency trends.
