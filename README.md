@@ -47,3 +47,8 @@ AI-powered assistant that helps turn raw security alerts and logs into actionabl
 - Deploy backend (Render) + frontend (Vercel).
 - Secure /metrics with auth.
 - Add charts for latency trends.
+
+---
+
+## Built by **Vishal Perla**  
+📧 Questions? Email me at: [your.email@example.com](mailto:your.email@example.com)
