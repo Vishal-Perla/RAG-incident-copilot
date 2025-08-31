@@ -39,3 +39,11 @@ npm run dev
 #Add .env files with your keys (not committed to GitHub):
 OPENAI_API_KEY=sk-...
 PINECONE_API_KEY=pcsk-...
+
+---
+
+##📍 Roadmap
+-Swap SQLite → PostgreSQL for persistence
+-Deploy backend (Render) + frontend (Vercel)
+-Secure /metrics with auth
+-Add charts for latency trends
