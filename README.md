@@ -3,7 +3,7 @@
 AI-powered assistant that helps turn raw security alerts and logs into actionable response steps.
 
 ✅ Built with **React (frontend)**, **FastAPI (backend)**, **Pinecone (vector DB)**, and **OpenAI GPT-4o**.  
-✅ Used internally by me and coworkers at startups to log and track common cybersecurity issues.  
+✅ Used internally by me and my coworkers at companies I have worked at to log and track common cybersecurity issues.  
 ✅ Plans to ship soon with production features (see roadmap).
 
 ---
