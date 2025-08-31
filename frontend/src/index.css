@@ -1,0 +1,184 @@
+/* index.css */
+
+:root {
+  --bg: #0d1117;
+  --card-bg: #161b22;
+  --accent: #2f81f7;
+  --text: #c9d1d9;
+  --text-muted: #8b949e;
+  --error: #ff7b72;
+  --success: #3fb950;
+  --border: #30363d;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+}
+
+header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  color: var(--accent);
+}
+
+p {
+  color: var(--text-muted);
+}
+
+.card {
+  background: var(--card-bg);
+  padding: 1.2rem 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  resize: vertical;
+}
+
+button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover:not(:disabled) {
+  background: #1f6feb;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button.primary {
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.row.space {
+  justify-content: space-between;
+}
+
+.gap {
+  gap: 0.5rem;
+}
+
+.preview {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  overflow-x: auto;
+  margin-top: 0.75rem;
+}
+
+.error {
+  border-left: 4px solid var(--error);
+  color: var(--error);
+}
+
+.result .tag {
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+
+.sources {
+  list-style: none;
+  padding-left: 0;
+}
+
+.sources li {
+  margin: 0.3rem 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+}
+
+th, td {
+  padding: 0.5rem 0.6rem;
+  border-bottom: 1px solid var(--border);
+}
+
+th {
+  text-align: left;
+  color: var(--text-muted);
+}
+
+td {
+  vertical-align: top;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.result {
+  line-height: 1.5;
+}
+
+.result ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.result ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.slide-up {
+  animation: slideUp 0.5s ease-out;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}

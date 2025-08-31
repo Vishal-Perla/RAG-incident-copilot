@@ -1,0 +1,27 @@
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+venv/
+.env
+
+# Node / React
+node_modules/
+dist/
+build/
+*.log
+
+# Env files (secrets)
+backend/.env
+frontend/.env
+*.env
+
+# IDE / editor
+.vscode/
+.idea/

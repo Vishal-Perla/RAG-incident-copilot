@@ -1,0 +1,85 @@
+/* Smooth slide-up animation for the whole panel */
+.slide-up {
+  animation: slideUp 0.5s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fade-in for summary section */
+.fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  color: #ddd;
+}
+
+thead th {
+  background: #0e111b;
+  color: #9fb3d9;
+  font-weight: 600;
+  padding: 8px 6px;
+  border-bottom: 1px solid #262a38;
+}
+
+tbody td {
+  padding: 8px 6px;
+  border-bottom: 1px solid #262a38;
+}
+
+tbody tr:hover {
+  background: #1a1d2b;
+  transition: background 0.2s ease-in-out;
+}
+
+/* Error text in table */
+td.error-cell {
+  color: #ff9b9b;
+}
+
+/* Tags for summary */
+.tag {
+  display: inline-block;
+  background: #1a1d2b;
+  color: #9fb3d9;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+
+.sources {
+  list-style: none;
+  padding: 0;
+  margin: 6px 0;
+}
+
+.sources li {
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+}
